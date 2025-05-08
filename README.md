@@ -57,7 +57,7 @@ and select the stream for which you want to determine the sampling rate.
 ## Output streams
 
 Upon running `python brainlink_lsl`, the following streams are made available through LSL:
-* `BrainLink-<COM port>-eeg`: the raw EEG data at 484.30 Hz for the headband setup, or 513.78 Hz for the head brace setup.
-* `BrainLink-<COM port>-gyro`: the gyroscope's x, y, and z axis output at 2.8 Hz.
-* `BrainLink-<COM port>-physio`: physiological data like heart rate and
+* `BrainLink-<serial port name>-eeg`: the raw EEG data at 484.30 Hz for the headband setup, or 513.78 Hz for the head brace setup.
+* `BrainLink-<serial port name>-gyro`: the gyroscope's x, y, and z axis output at 2.8 Hz.
+* `BrainLink-<serial port name>-physio`: physiological data like heart rate and
    temperature at 1 Hz.
