@@ -1,4 +1,4 @@
-name: brainlink-p300
+name: brainlink-lsl
 channels:
   - conda-forge
 dependencies:
@@ -9,5 +9,3 @@ dependencies:
   - pip:
     - pylsl
     - click-prompt
-
-
