@@ -61,3 +61,8 @@ Upon running `python brainlink_lsl`, the following streams are made available th
 * `BrainLink-<serial port name>-gyro`: the gyroscope's x, y, and z axis output at 2.8 Hz.
 * `BrainLink-<serial port name>-physio`: physiological data like heart rate and
    temperature at 1 Hz.
+
+## Caveates/issues:
+* The gyro and physio streams probably don't need a fixed nominal sampling rate.
+* the gyroscope data only becomes available once the gyroscope is enabled with
+  some command to the headset. This is currently not integrated.
